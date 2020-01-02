@@ -1,0 +1,22 @@
+Testcase Name: Test001_android
+Failure StepNumber: null
+Reason for Failure:
+	An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\babu\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RZ8M42WZ0SV shell pm install /data/local/tmp/appium_cache/689bdba78482940f28a51aa3ed9d46d904db57ec.apk' exited with code 1'; Stderr: ''; Code: '1'
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'TEKCLAN-LAP-052', ip: '172.16.10.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\babu\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RZ8M42WZ0SV shell pm install /data/local/tmp/appium_cache/689bdba78482940f28a51aa3ed9d46d904db57ec.apk' exited with code 1'; Stderr: ''; Code: '1'
+    at getResponseForW3CError (C:\Users\babu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\babu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Full Stack Trace:
+	org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\babu\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RZ8M42WZ0SV shell pm install /data/local/tmp/appium_cache/689bdba78482940f28a51aa3ed9d46d904db57ec.apk' exited with code 1'; Stderr: ''; Code: '1'
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'TEKCLAN-LAP-052', ip: '172.16.10.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\babu\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RZ8M42WZ0SV shell pm install /data/local/tmp/appium_cache/689bdba78482940f28a51aa3ed9d46d904db57ec.apk' exited with code 1'; Stderr: ''; Code: '1'
+    at getResponseForW3CError (C:\Users\babu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\babu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+

@@ -1,0 +1,17 @@
+Testcase Name: Test001_android
+Failure StepNumber: 2
+Reason for Failure:
+	No such Element exists{app: C:\workspace\wmautomation\Q..., appPackage: in.erail.m, databaseEnabled: false, desired: {app: C:\workspace\wmautomation\Q..., appPackage: in.erail.m, deviceName: nubia Z11, newCommandTimeout: 30, platformName: android, platformVersion: 7.1.1}, deviceApiLevel: 25, deviceManufacturer: nubia, deviceModel: NX531J, deviceName: 9261d534, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 9261d534, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 30, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 7.1.1, statBarHeight: 75, takesScreenshot: true, viewportRect: {height: 1845, left: 0, top: 75, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f06d6579-ae60-47ea-9b62-667cc4fceb8f
+*** Element info: {Using=xpath, value=//android.view.View[contains(@text,'Train')]
+Full Stack Trace:
+	org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'TEKCLAN-LAP-052', ip: '172.16.10.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\workspace\wmautomation\Q..., appPackage: in.erail.m, databaseEnabled: false, desired: {app: C:\workspace\wmautomation\Q..., appPackage: in.erail.m, deviceName: nubia Z11, newCommandTimeout: 30, platformName: android, platformVersion: 7.1.1}, deviceApiLevel: 25, deviceManufacturer: nubia, deviceModel: NX531J, deviceName: 9261d534, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: 9261d534, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 30, pixelRatio: 3, platform: LINUX, platformName: LINUX, platformVersion: 7.1.1, statBarHeight: 75, takesScreenshot: true, viewportRect: {height: 1845, left: 0, top: 75, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f06d6579-ae60-47ea-9b62-667cc4fceb8f
+*** Element info: {Using=xpath, value=//android.view.View[contains(@text,'Train')]}
+
+

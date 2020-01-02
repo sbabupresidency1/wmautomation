@@ -1,0 +1,8 @@
+Testcase Name: Test001_android
+Failure StepNumber: 2
+Reason for Failure:
+	java.lang.ClassCastException
+Full Stack Trace:
+	java.lang.ClassCastException: java.util.ArrayList cannot be cast to io.appium.java_client.MobileElement
+
+

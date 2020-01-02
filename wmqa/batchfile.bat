@@ -1,0 +1,1 @@
+java -jar -Dwm.reporter.config=C:\workspace\wmautomation\QA\testcases\wm.properties -DlogfileLoc=C:\log -Dwm.execution.parseq=ssequential C:\workspace\wmautomation\wmqa\target\wmqa-jar-with-dependencies.jar

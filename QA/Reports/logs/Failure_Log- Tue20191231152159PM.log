@@ -1,0 +1,18 @@
+Testcase Name: Test001_android
+Failure StepNumber: null
+Reason for Failure:
+	org.openqa.selenium.SessionNotCreatedException
+Full Stack Trace:
+	org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'TEKCLAN-LAP-052', ip: '192.168.68.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.
+    at getResponseForW3CError (C:\Users\babu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\babu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'TEKCLAN-LAP-052', ip: '192.168.68.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: AndroidDriver
+
+

@@ -1,0 +1,11 @@
+Testcase Name: Test001_android
+Failure StepNumber: 2
+Reason for Failure:
+	WebDriver Exception{element-6066-11e4-a52e-4f735466cecf=4023803f-ff40-403e-8a15-5ed7455ea769, ELEMENT=4023803f-ff40-403e-8a15-5ed7455ea769
+Full Stack Trace:
+	org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {element-6066-11e4-a52e-4f735466cecf=4023803f-ff40-403e-8a15-5ed7455ea769, ELEMENT=4023803f-ff40-403e-8a15-5ed7455ea769}
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
+System info: host: 'TEKCLAN-LAP-052', ip: '172.16.10.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: AndroidDriver
+
+

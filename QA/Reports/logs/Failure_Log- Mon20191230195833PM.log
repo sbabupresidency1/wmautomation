@@ -1,0 +1,46 @@
+Testcase Name: Test001_firefox
+Failure StepNumber: null
+Reason for Failure:
+	newSession
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TEKCLAN-LAP-052', ip: '172.16.10.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - "no info"
+   1:           0x482933 - "no info"
+   2:           0x445159 - "no info"
+   3:           0x44eff6 - "no info"
+   4:           0x4322e1 - "no info"
+   5:           0x40ba4e - "no info"
+   6:           0x4119b9 - "no info"
+   7:           0x6d2c89 - "no info"
+   8:           0x426006 - "no info"
+   9:           0x6cd490 - "no info"
+  10:     0x7ff90c9a7bd4 - BaseThreadInitThunk
+Full Stack Trace:
+	org.openqa.selenium.WebDriverException: newSession
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TEKCLAN-LAP-052', ip: '172.16.10.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44eff6 - <no info>
+   4:           0x4322e1 - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ff90c9a7bd4 - BaseThreadInitThunk
+
+
+Testcase Name: Test001_ie
+Failure StepNumber: 6
+Reason for Failure:
+	Time Out Error
+Full Stack Trace:
+	org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //input[@id='email'] (tried for 10 second(s) with 500 milliseconds interval)
+
+

@@ -1,0 +1,16 @@
+Testcase Name: Test001_firefox
+Failure StepNumber: null
+Reason for Failure:
+	permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TEKCLAN-LAP-052', ip: '192.168.68.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+Full Stack Trace:
+	org.openqa.selenium.WebDriverException: permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TEKCLAN-LAP-052', ip: '192.168.68.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+
